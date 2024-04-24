@@ -1007,10 +1007,17 @@ section {
 	border-radius: 4px 4px 0 0;
 	margin: 0;
 }
-.portfolio-item figure:hover img {
-	opacity: 0.4;
-	transition: 0.3s;
+
+.portfolio-item figure img {
+	transition: ease-in-out 0.4s;
 }
+
+.portfolio-item figure:hover img {
+	opacity: 0.7;
+	transition: ease 0.3s;
+	transform: scale(1.2);
+}
+
 .portfolio-item figure .link-preview,
 .portfolio-item figure .link-details {
 	position: absolute;
